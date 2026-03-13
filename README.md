@@ -2,8 +2,6 @@
 
 Ingeniero de Sistemas y Computación apasionado por la IA Generativa, Ciencia de Datos y Desarrollo Software. Este portfolio destaca mi trayectoria profesional, formación académica y proyectos técnicos de alto impacto.
 
-![Portfolio Preview](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
-
 ## ✨ Características
 
 - **Diseño Moderno** – Layout limpio y profesional con efectos de glassmorphism.
