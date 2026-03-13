@@ -7,6 +7,7 @@ export const personalInfo = {
   profilePicture: "/profile.jpeg",
   heroDescription:
     "Soy Ingeniero de Sistemas y Computación con experiencia en análisis de datos, inteligencia de negocios y desarrollo de software. Durante mi etapa como Pasante de Ciencia de Datos, trabajé en la recolección, limpieza y análisis de datos de diversas fuentes para apoyar la toma de decisiones estratégicas. Cuento con conocimientos prácticos en Python para el análisis de datos, implementación de modelos de NLP y desarrollo backend. Me destaco por mi capacidad para aplicar metodologías ágiles y entregar soluciones eficientes basadas en datos que generen valor a las organizaciones.",
+  cv: "/CV - HAROLD LAGARES DE VOZ - ES.pdf",
 };
 
 export const workExperience = [
