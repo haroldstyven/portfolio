@@ -1,186 +1,59 @@
-# Modern Portfolio Template
+# Harold Lagares - Portfolio
 
-A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
+Ingeniero de Sistemas y Computación apasionado por la IA Generativa, Ciencia de Datos y Desarrollo Software. Este portfolio destaca mi trayectoria profesional, formación académica y proyectos técnicos de alto impacto.
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
+![Portfolio Preview](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
 
-## ✨ Features
+## ✨ Características
 
-- **Modern Design** – Clean, professional layout with elegant glassmorphism
-- **Animations** – Smooth transitions and interactive UI via Framer Motion
-- **Dark/Light Mode** – Automatic theme switching with system preference detection
-- **Fully Responsive** – Optimized for mobile, tablet, and desktop
-- **Blazing Fast** – Powered by Astro for superior performance
-- **Modular Structure** – Built for easy customization and scalability
-- **SEO Friendly** – Structured content and meta tags for better visibility
+- **Diseño Moderno** – Layout limpio y profesional con efectos de glassmorphism.
+- **Animaciones** – Transiciones suaves e interfaz interactiva mediante Framer Motion.
+- **Modo Oscuro/Claro** – Detección automática de tema basada en las preferencias del sistema.
+- **Totalmente Responsivo** – Optimizado para dispositivos móviles, tablets y escritorio.
+- **Alto Rendimiento** – Construido con Astro para una velocidad superior.
+- **SEO Optimizado** – Etiquetas meta y estructura de contenido preparada para buscadores.
 
-## 🚀 Demo
+## 🚀 Proyectos Destacados
 
-👉 [Live Demo](https://rishilol.vercel.app/)
+- **Modelo de Optimización de Turnos (Megatiendas)** – Modelo matemático en Python para la gestión eficiente de la fuerza laboral.
+- **Intecmar AI Platform** – Plataforma de agentes de IA y microservicios desarrollada para Cotecmar.
+- **TrueShield (Fake News Detector)** – Sistema de verificación de noticias falsas utilizando NLP e IA.
 
-## 🛠 Getting Started
+## 🛠 Tecnologías Utilizadas
 
-### Prerequisites
+- **Frontend**: Astro, React, Tailwind CSS
+- **Backend / IA**: Python, FastAPI, Django, LangChain, LangGraph
+- **Base de Datos**: PostgreSQL, MongoDB, Redis, ChromaDB
+- **Infraestructura**: Docker, AWS, Azure, Git
 
-- Node.js (v18+ recommended)
+## 📋 Requisitos para ejecución local
+
+- Node.js (v18+)
 - npm / yarn / bun
 
-### Installation
+### Instalación
 
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
+git clone https://github.com/Lagares02/my-portfolio.git
 cd my-portfolio
 
-# Install dependencies
+# Instalar dependencias
 npm install
-# or
-yarn install
-# or
-bun install
 
-# Start development server
+# Iniciar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-bun dev
 ```
 
-Visit `http://localhost:4321` in your browser to see it in action.
+Visita `http://localhost:4321` en tu navegador.
 
-## 🧩 Customizing the Portfolio
+## � Licencia
 
-All your content lives inside `src/lib/data.ts`. Update the following to make it yours:
-
-### 1. Personal Info
-
-```ts
-export const personalInfo = {
-  name: "Your Name",
-  location: "Your Location",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://www.linkedin.com/in/yourusername/",
-};
-```
-
-### 2. Work Experience
-
-```ts
-export const workExperience = [
-  {
-    company: "Company Name",
-    location: "Location",
-    position: "Your Position",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 3. Education
-
-```ts
-export const education = [
-  {
-    institution: "University Name",
-    location: "Location",
-    degree: "Your Degree",
-    period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
-  },
-];
-```
-
-### 4. Skills
-
-```ts
-export const skills = {
-  programmingLanguages: ["TypeScript", "Python"],
-  frontendDevelopment: ["React", "Next.js"],
-  // and more...
-};
-```
-
-### 5. Projects
-
-```ts
-export const projects = [
-  {
-    title: "Project Name",
-    github: "https://github.com/yourusername/project",
-    description: [
-      "What it does",
-      "Technologies used",
-    ],
-  },
-];
-```
-
-### 6. Awards
-
-```ts
-export const awards = [
-  {
-    name: "Award Name",
-    issuer: "Issuer",
-    date: "Date",
-    type: "Type",
-    position: "Position",
-  },
-];
-```
-
-## 📦 Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-# or
-bun run build
-```
-
-To preview the production build locally:
-
-```bash
-npm run preview
-# or
-yarn preview
-```
-
-## 📤 Deployment
-
-Easily deploy to platforms like **Vercel**, **Netlify**, **GitHub Pages**, or any static host of your choice.
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Este proyecto está bajo la Licencia MIT.
 
 ## ©️ Copyright
 
-© 2025 **Rishikesh S.** All rights reserved.
-
-You’re welcome to use this template for your own portfolio — just update `data.ts` and tweak the design as needed. Please keep attribution to the original author.
+© 2026 **Harold Styven Lagares De Voz**. Todos los derechos reservados.
 
 ---
 
-## 🌟 Like it?
-
-If you found this helpful or inspiring, **please consider leaving a star** ⭐ on the repo — it helps others discover it too!
-
----
-
-## 🙏 Acknowledgments
-
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Lucide Icons](https://lucide.dev/)
+Agradecimientos especiales al autor original de la plantilla por el diseño base.
