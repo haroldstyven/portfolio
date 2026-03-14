@@ -86,7 +86,7 @@ export const skills = {
 export const projects = [
   {
     title: "Intecmar AI Platform",
-    github: "https://github.com/carlosDAC2020/Full_Agent_CTM",
+    github: "https://github.com/haroldstyven/Intecmar.git",
     description: [
       "Plataforma de IA desarrollada para Cotecmar.",
       "Implementación de agentes inteligentes para optimización de procesos.",
@@ -95,7 +95,7 @@ export const projects = [
   },
   {
     title: "TrueShield (Fake News Detector)",
-    github: "https://github.com/Lagares02/",
+    github: "https://github.com/haroldstyven",
     description: [
       "Desarrollo de un sistema de gestión y verificación de noticias falsas.",
       "Implementación Full-Stack con tecnologías modernas e interfaz intuitiva.",
@@ -114,7 +114,7 @@ export const projects = [
   },
   {
     title: "Modelo de Optimización de Turnos (Megatiendas)",
-    github: "https://github.com/Lagares02/Model-Turnos",
+    github: "https://github.com/haroldstyven/Model_Turnos.git",
     description: [
       "Modelo matemático en Python para la optimización de la programación de turnos y asignación de fuerza laboral.",
       "Estimación de demanda operativa basada en datos históricos de facturación.",
