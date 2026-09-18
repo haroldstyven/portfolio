@@ -22,7 +22,7 @@ export default function GlassHeader() {
 
   return (
     <header className="sticky z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60">
-      <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
+      <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center gap-x-4">
         <motion.a
           className="flex items-center text-lg font-medium"
           href="/"
@@ -33,7 +33,7 @@ export default function GlassHeader() {
         </motion.a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-4 lg:space-x-6 text-sm font-medium">
           {navItems.map((item, index) => (
             <motion.a
               key={item}
@@ -49,7 +49,7 @@ export default function GlassHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 shrink-0">
           <LanguageToggle />
           <ThemeToggle />
 
