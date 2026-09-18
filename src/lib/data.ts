@@ -5,12 +5,65 @@ export const personalInfo = {
   github: "https://github.com/haroldstyven",
   linkedin: "https://www.linkedin.com/in/harold-lagares/",
   profilePicture: "/profile.jpeg",
+  title: "M.Sc. Ing. (C) · CTO & Co-Founder en Bijao SAS · Full Stack Developer",
   heroDescription:
-    "Soy Ingeniero de Sistemas y Computación con experiencia en análisis de datos, inteligencia de negocios y desarrollo de software. Durante mi etapa como Pasante de Ciencia de Datos, trabajé en la recolección, limpieza y análisis de datos de diversas fuentes para apoyar la toma de decisiones estratégicas. Cuento con conocimientos prácticos en Python para el análisis de datos, implementación de modelos de NLP y desarrollo backend. Me destaco por mi capacidad para aplicar metodologías ágiles y entregar soluciones eficientes basadas en datos que generen valor a las organizaciones.",
+    "Ingeniero de Sistemas y Computación, actualmente cursando la Maestría en Ingeniería en la Universidad Tecnológica de Bolívar. Soy CTO y cofundador de Bijao SAS, donde lidero la arquitectura y el desarrollo full-stack (Next.js, FastAPI, PostgreSQL/Supabase) de una plataforma SaaS multi-tenant para PYMEs. Cuento con experiencia previa en ciencia de datos, IA generativa (LangChain, LangGraph) y desarrollo backend, aplicando metodologías ágiles para entregar soluciones eficientes y basadas en datos que generen valor a las organizaciones.",
   cv: "/CV - HAROLD LAGARES DE VOZ - ES.pdf",
 };
 
 export const workExperience = [
+  {
+    company: "Universidad Tecnológica de Bolívar",
+    location: "Cartagena de Indias, Bolívar, Colombia",
+    position: "Ingeniero de Desarrollo TIC",
+    period: "Agosto 2026 - Actualidad",
+    achievements: [
+      "Desarrollo de soluciones tecnológicas para procesos institucionales, con foco en omnicanalidad e IA generativa.",
+      "Integración y modernización de los canales de atención hacia una experiencia unificada.",
+      "Diseño de agentes de IA y automatizaciones aplicadas a procesos internos.",
+      "Análisis de necesidades, evaluación técnica de alternativas e implementación de las soluciones.",
+    ],
+  },
+  {
+    company: "Bijao SAS",
+    location: "Cartagena de Indias, Bolívar, Colombia",
+    position: "CTO & Co-Founder",
+    period: "Febrero 2026 - Actualidad",
+    achievements: [
+      "Liderazgo de la arquitectura, el roadmap técnico y el desarrollo de producto de extremo a extremo de una plataforma SaaS multi-tenant para PYMEs.",
+      "Diseño de arquitectura multi-tenant con aislamiento por tenant (Row Level Security en PostgreSQL/Supabase) y definición de estándares de código, seguridad y despliegue.",
+      "Desarrollo full-stack sobre Next.js y FastAPI: módulos de gestión operativa y financiera para negocios pequeños.",
+      "Diseño e implementación de un agente conversacional sobre WebSocket con más de 20 herramientas integradas al dominio del negocio.",
+      "Decisiones de stack tecnológico, costos de infraestructura y priorización de producto como cofundador.",
+    ],
+  },
+  {
+    company: "Universidad Tecnológica de Bolívar",
+    location: "Cartagena de Indias, Bolívar, Colombia (Remoto)",
+    position: "Monitor de IA, Análisis de Datos y Programación",
+    period: "Septiembre 2024 - Junio 2026",
+    achievements: [
+      "Apoyo integral en la gestión del proceso formativo, trabajando con docentes, coordinadores y estudiantes.",
+      "Acompañamiento activo a ejecutores y beneficiarios durante el Bootcamp para garantizar objetivos académicos.",
+      "Asistencia a mentores y facilitadores fomentando aprendizaje centrado en el estudiante y metodologías activas.",
+      "Implementación de estrategias pedagógicas innovadoras para mejorar la experiencia de las tutorías.",
+      "Verificación del cumplimiento del plan de estudios y alineación de actividades académicas.",
+      "Soporte en herramientas tecnológicas, plataformas virtuales y recursos digitales para el aprendizaje.",
+    ],
+  },
+  {
+    company: "Cotecmar",
+    location: "Cartagena, Bolívar, Colombia",
+    position: "Software Developer",
+    period: "Septiembre 2025 - Febrero 2026",
+    achievements: [
+      "Diseño y desarrollo de una arquitectura de microservicios para automatizar la vigilancia tecnológica y la identificación de oportunidades de financiamiento.",
+      "Implementación de agentes de IA Generativa utilizando Google Gemini Pro y LangGraph para ejecutar flujos de recolección, procesamiento y análisis de datos web.",
+      "Gestión de bases de datos híbridas (PostgreSQL y ChromaDB vectorial) para procesos RAG.",
+      "Desarrollo de pipelines de procesamiento asíncrono con Celery y Redis.",
+      "Aseguramiento de la calidad de datos mediante validación de esquemas (Pydantic) y sanitización, convirtiendo los datos recolectados en informes estratégicos.",
+    ],
+  },
   {
     company: "Lean Solutions Group",
     location: "Cartagena, Bolívar, Colombia",
@@ -24,31 +77,33 @@ export const workExperience = [
       "Soporte en actualizaciones y mantenimiento de dashboards y estudios de tiempo para medir productividad.",
     ],
   },
+];
+
+export const leadership = [
   {
-    company: "Cotecmar",
-    location: "Cartagena, Bolívar, Colombia",
-    position: "Software Developer - Data Science Intern",
-    period: "Septiembre 2024 - Enero 2025",
+    company: "IEEE Computational Intelligence Society - Student Chapter UTB",
+    location: "Cartagena de Indias, Bolívar, Colombia (Híbrido)",
+    position: "Vice President",
+    period: "Abril 2026 - Actualidad",
     achievements: [
-      "Diseño y desarrollo de una arquitectura de microservicios para la automatización de vigilancia tecnológica (ETL).",
-      "Implementación de agentes de IA Generativa utilizando Google Gemini Pro y LangGraph.",
-      "Gestión de bases de datos híbridas (PostgreSQL y ChromaDB vectorial) para procesos RAG.",
-      "Desarrollo de pipelines de procesamiento asíncrono con Celery y Redis.",
-      "Aseguramiento de la calidad de datos mediante validación de esquemas (Pydantic) y sanitización.",
+      "Impulso de la agenda técnica del capítulo en inteligencia computacional: machine learning, NLP e IA generativa aplicada.",
+      "Organización de charlas, talleres prácticos y semilleros con participación de múltiples estudiantes.",
+      "Acompañamiento a estudiantes de pregrado en su primer acercamiento a investigación en IA: lectura de papers, shared tasks y preparación de submissions.",
+      "Articulación del capítulo con el VerbaNex AI Lab para vincular a los miembros a proyectos de investigación reales.",
+      "Vocería y relacionamiento con la sección IEEE Caribe y otros capítulos estudiantiles de la región.",
     ],
   },
   {
-    company: "Universidad Tecnológica de Bolívar",
-    location: "Cartagena de Indias, Bolívar, Colombia (Remoto)",
-    position: "Monitor de IA, Análisis de Datos y Programación",
-    period: "Septiembre 2024 - Actualidad",
+    company: "IEEE Computer Society - Student Chapter UTB",
+    location: "Cartagena de Indias, Bolívar, Colombia (Híbrido)",
+    position: "Vice President",
+    period: "Abril 2026 - Actualidad",
     achievements: [
-      "Apoyo integral en la gestión del proceso formativo, trabajando con docentes, coordinadores y estudiantes.",
-      "Acompañamiento activo a ejecutores y beneficiarios durante el Bootcamp para garantizar objetivos académicos.",
-      "Asistencia a mentores y facilitadores fomentando aprendizaje centrado en el estudiante y metodologías activas.",
-      "Implementación de estrategias pedagógicas innovadoras para mejorar la experiencia de las tutorías.",
-      "Verificación del cumplimiento del plan de estudios y alineación de actividades académicas.",
-      "Soporte en herramientas tecnológicas, plataformas virtuales y recursos digitales para el aprendizaje.",
+      "Enfoque de la agenda del capítulo en ingeniería de software y práctica profesional: arquitectura, desarrollo y buenas prácticas.",
+      "Coordinación de talleres sobre desarrollo de software, control de versiones, arquitecturas modernas y despliegue.",
+      "Generación de espacios de contacto con la industria tecnológica local para acercar a los estudiantes a problemas reales.",
+      "Gestión de membresías y crecimiento del capítulo.",
+      "Trabajo conjunto con el capítulo IEEE CIS en eventos de mayor escala, aprovechando el solapamiento entre ambas comunidades.",
     ],
   },
 ];
@@ -67,10 +122,11 @@ export const education = [
     institution: "Universidad Tecnológica de Bolívar (UTB)",
     location: "Cartagena, Colombia",
     degree: "Ingeniero en sistemas y computación",
-    period: "2020 - 2025",
+    period: "Agosto 2020 - Octubre 2025",
     achievements: [
       "Enfoque en Ciencia de Datos, Inteligencia de Negocios y Desarrollo de Software.",
-      "Graduación prevista: Octubre 2025.",
+      "Promedio acumulado: 4.10 / 5.0.",
+      "Miembro del Semillero de investigación VerbaNextAI.",
     ],
   },
 ];
@@ -101,15 +157,6 @@ export const projects = [
       "Implementación Full-Stack con tecnologías modernas e interfaz intuitiva.",
       "Construcción de API RESTful para facilitar la integración externa.",
       "Uso de modelos de IA y NLP para validar la veracidad de la información.",
-    ],
-  },
-  {
-    title: "Bijao",
-    github: "https://github.com/haroldstyven",
-    description: [
-      "Proyecto enfocado en módulos de marketing y cotización.",
-      "Desarrollo de funcionalidades backend para gestión comercial.",
-      "Optimización de flujos de trabajo internos.",
     ],
   },
   {

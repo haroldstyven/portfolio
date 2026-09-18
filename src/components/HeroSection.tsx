@@ -47,7 +47,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Ingeniero de Sistemas y Computación
+              {personalInfo.title}
             </motion.p>
 
             <motion.div

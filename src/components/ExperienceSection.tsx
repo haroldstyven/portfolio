@@ -1,29 +1,46 @@
-import { workExperience } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
 import { Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
-export default function ExperienceSection() {
+interface ExperienceEntry {
+  company: string;
+  location: string;
+  position: string;
+  period: string;
+  achievements: string[];
+}
+
+interface ExperienceSectionProps {
+  id: string;
+  heading: string;
+  items: ExperienceEntry[];
+}
+
+export default function ExperienceSection({
+  id,
+  heading,
+  items,
+}: ExperienceSectionProps) {
   return (
     <section
-      id="experience"
+      id={id}
       className="py-12 bg-gradient-to-b from-muted/20 to-background"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left flex items-center md:inline-block">
-            Experiencia Laboral
+            {heading}
           </h2>
         </MotionWrapper>
         <div className="mb-8">
-          {workExperience.map((job, index) => (
+          {items.map((job, index) => (
             <TimelineItem
               key={job.company + job.period}
               title={`${job.position} | ${job.company}`}
               subtitle={`${job.location}`}
               date={`${job.period}`}
-              isLast={index === workExperience.length - 1}
+              isLast={index === items.length - 1}
               index={index}
             >
               <motion.div
