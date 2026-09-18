@@ -1,11 +1,14 @@
 import React from "react";
-import { awards } from "@/lib/data";
 import { Trophy } from "lucide-react";
 import MotionWrapper from "./MotionWrapper";
 import { GlassCard } from "./ui/glass-card";
 import { motion } from "framer-motion";
+import { useLocalizedData, useUiStrings } from "@/lib/i18n";
 
 export default function AwardsSection() {
+  const { awards } = useLocalizedData();
+  const t = useUiStrings();
+
   return (
     <section
       id="certifications"
@@ -14,7 +17,7 @@ export default function AwardsSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            Certificaciones
+            {t.certificationsHeading}
           </h2>
         </MotionWrapper>
 

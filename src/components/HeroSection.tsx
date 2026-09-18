@@ -1,9 +1,11 @@
-import { personalInfo } from "@/lib/data";
 import { Mail, Github, MapPin, Linkedin, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
+import { useLocalizedData, useUiStrings } from "@/lib/i18n";
 
 export default function HeroSection() {
+  const { personalInfo } = useLocalizedData();
+  const t = useUiStrings();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -105,7 +107,7 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
                 <Download className="h-4 w-4 mr-2" />
-                Descargar CV
+                {t.downloadCv}
               </motion.a>
             </motion.div>
           </div>

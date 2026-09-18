@@ -160,6 +160,46 @@ export const projects = [
     ],
   },
   {
+    title: "Guardianes de la Tierra",
+    github: "https://github.com/haroldstyven/Guardianes",
+    demo: "https://guardianes-tierra.vercel.app/",
+    description: [
+      "Aplicación educativa interactiva para enseñar conservación ambiental a través de secuencias didácticas (Exploración, Aprendizaje, Práctica y Evaluación).",
+      "Desarrollo full-stack con Next.js 14 (App Router), Tailwind CSS y animaciones con Framer Motion.",
+      "Autenticación y base de datos con Supabase (PostgreSQL con Row Level Security).",
+      "Interacciones gamificadas con drag and drop y celebraciones animadas para motivar a los usuarios más jóvenes.",
+    ],
+  },
+  {
+    title: "UTB · Agente de Admisiones",
+    github: "https://github.com/haroldstyven/UTB-Admisiones",
+    description: [
+      "Sistema que lee los correos de aspirantes a pregrado, identifica al aspirante y abre automáticamente el negocio correspondiente en el embudo de admisiones del CRM, sin duplicar registros existentes.",
+      "Agente de IA con herramientas (agent tools) integrado a HubSpot para automatizar un proceso que antes se hacía manualmente.",
+      "Backend desplegado en Vercel que expone los endpoints públicos que HubSpot requiere para las agent tools.",
+      "Pipeline de integración continua (CI) configurado para asegurar la calidad del código.",
+    ],
+  },
+  {
+    title: "RAG-Agent",
+    github: "https://github.com/haroldstyven/RAG-Agent",
+    description: [
+      "Microservicio de RAG (Retrieval-Augmented Generation) construido en Python con FastAPI.",
+      "Actúa como agente de atención de primer nivel para responder consultas de una universidad.",
+      "Arquitectura orientada a servicios, pensada para integrarse con otros sistemas institucionales.",
+    ],
+  },
+  {
+    title: "AquaRuta",
+    github: "https://github.com/haroldstyven/AquaRuta",
+    description: [
+      "Aplicación móvil en Flutter para la gestión y monitoreo de rutas de distribución de agua.",
+      "Visualización de rutas en mapa interactivo y seguimiento en tiempo real de vehículos.",
+      "Gestión de entregas, pedidos y notificaciones para conductores y usuarios.",
+      "Panel de administración para la gestión centralizada de usuarios y rutas.",
+    ],
+  },
+  {
     title: "Modelo de Optimización de Turnos (Megatiendas)",
     github: "https://github.com/haroldstyven/Model_Turnos.git",
     description: [
@@ -172,6 +212,34 @@ export const projects = [
 ];
 
 export const awards = [
+  {
+    name: "Claude Certified Architect - Foundations",
+    issuer: "Anthropic",
+    date: "Sep 2026",
+    type: "Certification",
+    position: "Certified",
+  },
+  {
+    name: "Certified Peer Reviewer Course",
+    issuer: "Elsevier Researcher Academy",
+    date: "May 2026",
+    type: "Certificate of Excellence",
+    position: "Certified",
+  },
+  {
+    name: "Ponencia: NLP Detection of Behavioral Inconsistencies in Consumer Trends: A Dual Encoder Approach",
+    issuer: "Sociedad Colombiana de Computación (20CCC)",
+    date: "Ago 2026",
+    type: "Ponencia",
+    position: "Ponente",
+  },
+  {
+    name: "Ponencia: Quantifying Veracity in Digital Media",
+    issuer: "Sociedad Colombiana de Computación (20CCC)",
+    date: "Ago 2026",
+    type: "Ponencia",
+    position: "Ponente",
+  },
   {
     name: "Data Analysis and Business Intelligence with PowerBI",
     issuer: "Udemy",

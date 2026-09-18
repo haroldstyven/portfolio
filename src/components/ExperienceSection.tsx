@@ -2,26 +2,20 @@ import TimelineItem from "./TimelineItem";
 import { Briefcase } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
-
-interface ExperienceEntry {
-  company: string;
-  location: string;
-  position: string;
-  period: string;
-  achievements: string[];
-}
+import { useLocalizedData, useUiStrings } from "@/lib/i18n";
 
 interface ExperienceSectionProps {
-  id: string;
-  heading: string;
-  items: ExperienceEntry[];
+  section: "experience" | "leadership";
 }
 
-export default function ExperienceSection({
-  id,
-  heading,
-  items,
-}: ExperienceSectionProps) {
+export default function ExperienceSection({ section }: ExperienceSectionProps) {
+  const { workExperience, leadership } = useLocalizedData();
+  const t = useUiStrings();
+  const id = section;
+  const heading =
+    section === "experience" ? t.experienceHeading : t.leadershipHeading;
+  const items = section === "experience" ? workExperience : leadership;
+
   return (
     <section
       id={id}
@@ -54,7 +48,7 @@ export default function ExperienceSection({
                   <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
                     <Briefcase className="h-4 w-4 text-purple-500" />
                   </div>
-                  <h4 className="text-sm font-medium">Logros Clave</h4>
+                  <h4 className="text-sm font-medium">{t.keyAchievements}</h4>
                 </div>
                 <ul className="list-none ml-4 space-y-2 text-sm">
                   {job.achievements.map((achievement, i) => (
